@@ -1,0 +1,23 @@
+{
+  "name": "smtp-shinobi-api-motion-trigger",
+  "version": "0.0.1",
+  "description": "Receives an SMTP event from a camera and triggers a motion event via the Shinobi API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomPatterson/smtp-shinobi-api-motion-trigger.git"
+  },
+  "author": "Thom Patterson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomPatterson/smtp-shinobi-api-motion-trigger/issues"
+  },
+  "homepage": "https://github.com/ThomPatterson/smtp-shinobi-api-motion-trigger#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "smtp-server": "^3.5.0"
+  }
+}
